@@ -1,4 +1,6 @@
 import React from "react";
+import roadmap from "../../public/assets/roadmap.jpeg"
+
 
 export const HomeComponent = () => {
     return (
@@ -12,7 +14,7 @@ export const HomeComponent = () => {
             <p> <span className="highlight">Цель</span>: составить для себя
                 шпору-приложение, что бы всегда можно было обратиться к уже
                 используемому материалу и копировать конструкции.</p>
-            <img className='home-img' src="src/assets/roadmap.jpeg" alt="" />
+            <img className='home-img' src={roadmap} alt="" />
             <p>На каждую тему нужно реализовать свой роут с написанным функционалом по этой теме.</p>
         </>
     );

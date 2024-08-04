@@ -162,9 +162,6 @@ pre {
     height: 100%;
     border-radius: 30px;
   }
-  .home {
-    margin-bottom: 50px;
-  }
   .menu-learn {
     display: flex;
     flex-direction: column;
