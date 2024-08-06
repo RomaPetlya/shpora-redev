@@ -6,11 +6,11 @@ import './index.css'
 
 
 const baseUrl='/shpora-redev'
-
+const empty = //'/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <BrowserRouter basename={ '/' ?? baseUrl }>
+  <BrowserRouter basename={ empty ?? baseUrl }>
     <App/> 
   </BrowserRouter>  
     
