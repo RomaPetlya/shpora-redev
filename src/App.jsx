@@ -12,37 +12,39 @@ function App() {
     return (
         <>
             <Header />
-            <div className="container">
-                <Routes>
-                    <Route path="/" element={<HomeComponent />}></Route>
-                    <Route
-                        path="/learn"
-                        element={<Navigate to="/learn/vdom" />}
-                    />
-                    <Route path="/learn" element={<LearnComponent />}>
+            <main>
+                <div className="container">
+                    <Routes>
+                        <Route path="/" element={<HomeComponent />}></Route>
                         <Route
-                            path="vdom"
-                            element={<VirtualDomComponent />}
-                        ></Route>
-                        <Route
-                            path="compts"
-                            element={<ComponentsComponent />}
-                        ></Route>
-                        <Route
-                            path="props"
-                            element={<PropsComponent />}
-                        ></Route>
-                        <Route
-                            path="state"
-                            element={<StateComponent />}
-                        ></Route>
-                        <Route
-                            path="lcycle"
-                            element={<LifeCycleComponent />}
-                        ></Route>
-                    </Route>
-                </Routes>
-            </div>
+                            path="/learn"
+                            element={<Navigate to="/learn/vdom" />}
+                        />
+                        <Route path="/learn" element={<LearnComponent />}>
+                            <Route
+                                path="vdom"
+                                element={<VirtualDomComponent />}
+                            ></Route>
+                            <Route
+                                path="compts"
+                                element={<ComponentsComponent />}
+                            ></Route>
+                            <Route
+                                path="props"
+                                element={<PropsComponent />}
+                            ></Route>
+                            <Route
+                                path="state"
+                                element={<StateComponent />}
+                            ></Route>
+                            <Route
+                                path="lcycle"
+                                element={<LifeCycleComponent />}
+                            ></Route>
+                        </Route>
+                    </Routes>
+                </div>
+            </main>
         </>
     );
 }

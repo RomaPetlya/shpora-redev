@@ -27,11 +27,51 @@ const items = [
         text: "LifeCycle",
         path: "lcycle",
     },
-    // {
-    //     key: 6,
-    //     text: "Events",
-    //     path: "eve",
-    // },
+    {
+        key: 6,
+        text: "Events",
+        path: "events",
+    },
+    {
+        key: 7,
+        text: "Refs, key, Memo",
+        path: "refKeyMemo",
+    },
+    {
+        key: 8,
+        text: "Context",
+        path: "context",
+    },
+    {
+        key: 9,
+        text: "Routes",
+        path: "routes",
+    },
+    {
+        key: 10,
+        text: "Forms",
+        path: "forms",
+    },
+    {
+        key: 11,
+        text: "Storages",
+        path: "storages",
+    },
+    {
+        key: 12,
+        text: "HOC",
+        path: "hoc",
+    },
+    {
+        key: 13,
+        text: "Create project",
+        path: "create",
+    },
+    {
+        key: 14,
+        text: "Deploy project",
+        path: "deploy",
+    }
 ];
 
 const MenuLinks = () => {

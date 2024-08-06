@@ -1,6 +1,6 @@
 import React from "react";
-import reactLogo from "../../public/assets/react.svg";
-import { NavLink, Navigate } from "react-router-dom";
+import reactLogo from "../assets/react.svg";
+import { NavLink } from "react-router-dom";
 
 export const Header = () => {
     return (

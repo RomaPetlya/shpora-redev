@@ -1,5 +1,5 @@
 import React from "react";
-import roadmap from "../../public/assets/roadmap.jpeg"
+import roadmap from "../assets/roadmap.jpeg"
 
 
 export const HomeComponent = () => {

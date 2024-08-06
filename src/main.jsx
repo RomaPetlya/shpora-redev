@@ -4,11 +4,15 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
 
+
+const baseUrl='/shpora-redev'
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <BrowserRouter basename="/shpora-redev">
-    <App/>
-  </BrowserRouter>
+  <BrowserRouter basename={ '/' ?? baseUrl }>
+    <App/> 
+  </BrowserRouter>  
     
   //</React.StrictMode>,
 )
