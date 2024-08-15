@@ -6,7 +6,7 @@ import './index.css'
 
 
 const baseUrl='/shpora-redev'
-const empty = //'/'
+const empty = '/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>

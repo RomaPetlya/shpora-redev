@@ -57,6 +57,18 @@ p {
     color: #cccccc;
 }
 
+.list-link {
+    font-size: 1.125em;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+.list-link:hover {
+    color: #EB5757;
+    transition: 0.3s ease;
+}
+
 summary {
     cursor: pointer;
 }

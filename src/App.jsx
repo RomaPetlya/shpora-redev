@@ -7,6 +7,7 @@ import { VirtualDomComponent } from "./components/topics/virtualDom";
 import { PropsComponent } from "./components/topics/props";
 import { StateComponent } from "./components/topics/StateComponent";
 import { LifeCycleComponent } from "./components/topics/lifeCycle";
+import { EventsComponent } from "./components/topics/events";
 
 function App() {
     return (
@@ -40,6 +41,9 @@ function App() {
                             <Route
                                 path="lcycle"
                                 element={<LifeCycleComponent />}
+                            ></Route><Route
+                                path="events"
+                                element={<EventsComponent />}
                             ></Route>
                         </Route>
                     </Routes>
