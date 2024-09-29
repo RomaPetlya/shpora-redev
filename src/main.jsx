@@ -5,12 +5,10 @@ import App from './App.jsx'
 import './index.css'
 
 
-const baseUrl='/shpora-redev'
-const empty = '/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   //<React.StrictMode>
-  <BrowserRouter basename={ empty ?? baseUrl }>
+  <BrowserRouter basename="/shpora-redev/">
     <App/> 
   </BrowserRouter>  
     
