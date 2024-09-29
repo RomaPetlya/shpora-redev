@@ -35,42 +35,50 @@ const items = [
     {
         key: 7,
         text: "Refs, key, Memo",
-        path: "refKeyMemo",
+        path: "willbelater",
+        //path: "refKeyMemo",
     },
     {
         key: 8,
         text: "Context",
-        path: "context",
+        path: "willbelater",
+        //path: "context",
     },
     {
         key: 9,
         text: "Routes",
-        path: "routes",
+        path: "willbelater",
+        //path: "routes",
     },
     {
         key: 10,
         text: "Forms",
-        path: "forms",
+        path: "willbelater",
+        //path: "forms",
     },
     {
         key: 11,
         text: "Storages",
-        path: "storages",
+        path: "willbelater",
+        //path: "storages",
     },
     {
         key: 12,
         text: "HOC",
-        path: "hoc",
+        path: "willbelater",
+        //path: "hoc",
     },
     {
         key: 13,
         text: "Create project",
-        path: "create",
+        path: "willbelater",
+        //path: "create",
     },
     {
         key: 14,
         text: "Deploy project",
-        path: "deploy",
+        path: "willbelater",
+        // path: "deploy",
     }
 ];
 

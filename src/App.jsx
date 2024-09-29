@@ -8,6 +8,7 @@ import { PropsComponent } from "./components/topics/props";
 import { StateComponent } from "./components/topics/StateComponent";
 import { LifeCycleComponent } from "./components/topics/lifeCycle";
 import { EventsComponent } from "./components/topics/events";
+import { WillBeLAter } from "./components/topics/willBeLater";
 
 function App() {
     return (
@@ -17,34 +18,15 @@ function App() {
                 <div className="container">
                     <Routes>
                         <Route path="/" element={<HomeComponent />}></Route>
-                        <Route
-                            path="/learn"
-                            element={<Navigate to="/learn/vdom" />}
-                        />
+                        <Route path="/learn" element={<Navigate to="/learn/vdom" />} />
                         <Route path="/learn" element={<LearnComponent />}>
-                            <Route
-                                path="vdom"
-                                element={<VirtualDomComponent />}
-                            ></Route>
-                            <Route
-                                path="compts"
-                                element={<ComponentsComponent />}
-                            ></Route>
-                            <Route
-                                path="props"
-                                element={<PropsComponent />}
-                            ></Route>
-                            <Route
-                                path="state"
-                                element={<StateComponent />}
-                            ></Route>
-                            <Route
-                                path="lcycle"
-                                element={<LifeCycleComponent />}
-                            ></Route><Route
-                                path="events"
-                                element={<EventsComponent />}
-                            ></Route>
+                            <Route path="vdom" element={<VirtualDomComponent />}></Route>
+                            <Route path="compts" element={<ComponentsComponent />}></Route>
+                            <Route path="props" element={<PropsComponent />}></Route>
+                            <Route path="state" element={<StateComponent />}></Route>
+                            <Route path="lcycle" element={<LifeCycleComponent />}></Route>
+                            <Route path="events" element={<EventsComponent />}></Route>
+                            <Route path="willbelater" element={<WillBeLAter />}></Route>
                         </Route>
                     </Routes>
                 </div>
