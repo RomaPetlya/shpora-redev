@@ -9,6 +9,8 @@ import { StateComponent } from "./components/topics/StateComponent";
 import { LifeCycleComponent } from "./components/topics/lifeCycle";
 import { EventsComponent } from "./components/topics/events";
 import { WillBeLAter } from "./components/topics/willBeLater";
+import { RefsKeyFragment } from "./components/topics/refsKeysMemo";
+import { MemoCallback } from "./components/topics/memoCallback";
 
 function App() {
     return (
@@ -26,7 +28,8 @@ function App() {
                             <Route path="state" element={<StateComponent />}></Route>
                             <Route path="lcycle" element={<LifeCycleComponent />}></Route>
                             <Route path="events" element={<EventsComponent />}></Route>
-                            <Route path="willbelater" element={<WillBeLAter />}></Route>
+                            <Route path="refKeyFragment" element={<RefsKeyFragment />}></Route>
+                            <Route path="memoCallback" element={<MemoCallback />}></Route>
                         </Route>
                     </Routes>
                 </div>

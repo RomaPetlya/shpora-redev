@@ -34,12 +34,16 @@ const items = [
     },
     {
         key: 7,
-        text: "Refs, key, Memo",
-        path: "willbelater",
-        //path: "refKeyMemo",
+        text: "Refs, Key, Fragment",
+        path: "refKeyFragment",
     },
     {
         key: 8,
+        text: "Memo, useCallback",
+        path: "memoCallback",
+    },
+    {
+        key: 15,
         text: "Context",
         path: "willbelater",
         //path: "context",
